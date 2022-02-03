@@ -1,0 +1,29 @@
+{
+  "name": "pink",
+  "version": "1.0.0",
+  "description": "Тренировочный проект по адаптивной вёрстке от Html Academy",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "test": "npm run stylelint",
+    "stylelint": "stylelint source/less/**/*.less"
+  },
+  "author": "Akimba",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "10.4.2",
+    "browser-sync": "2.27.7",
+    "gulp": "4.0.2",
+    "gulp-less": "5.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sourcemaps": "3.0.0",
+    "postcss": "8.4.6",
+    "prettier": "2.5.1",
+    "stylelint": "13.13.1",
+    "stylelint-config-htmlacademy": "0.1.12",
+    "stylelint-config-prettier": "9.0.3"
+  },
+  "dependencies": {}
+}
